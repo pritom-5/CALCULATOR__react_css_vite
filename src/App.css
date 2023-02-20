@@ -1,0 +1,114 @@
+.page {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bg-background-1);
+  padding-top: 3rem;
+}
+/* theme buttons */
+.toggle {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-inline: auto;
+  padding-bottom: 1rem;
+}
+.theme {
+  color: var(--text-0);
+  font-size: smaller;
+  font-weight: bold;
+  opacity: 0.7;
+}
+.theme_btn {
+  appearance: none;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  border-radius: 50%;
+  margin-right: 0.25rem;
+}
+.theme_one {
+  background-color: var(--bg-purple);
+  color: var(--bg-white);
+}
+.theme_two {
+  background-color: var(--bg-white);
+}
+
+/* buttons numpad */
+.buttons_container {
+  background-color: var(--bg-background);
+  max-width: fit-content;
+  margin-inline: auto;
+  padding: 1rem;
+  margin-top: 1.5rem;
+}
+.buttons {
+  font-size: 24px;
+  font-weight: bolder;
+  display: grid;
+  grid-template-columns: repeat(4, 5rem);
+  gap: 0.75rem;
+}
+.button {
+  appearance: none;
+  box-shadow: none;
+  border: none;
+  min-width: 100%;
+  /* max-width: 10.3rem; */
+  padding: 0.5rem 1rem;
+  background-color: var(--bg-white);
+  color: var(--bg-black);
+  box-shadow: var(--box-shadow);
+  font-size: inherit;
+  font-weight: inherit;
+}
+.button:hover {
+  opacity: 0.8;
+}
+.reset {
+  grid-column: 1/3;
+}
+.equal {
+  min-width: 100%;
+  grid-column: 3/5;
+  background-color: var(--bg-accent);
+  color: var(--text-1);
+}
+.reset,
+.del {
+  background-color: var(--bg-accent-0);
+  color: var(--text-1);
+}
+
+.screen {
+  font-weight: 600;
+  height: 5rem;
+  width: 388px;
+  margin-inline: auto;
+  padding: 0.125rem 3rem;
+  box-shadow: var(--box-shadow);
+  background-color: var(--bg-background);
+  color: var(--text-0);
+}
+.screen_container {
+  position: relative;
+}
+.prev {
+  opacity: 0.7;
+  font-size: 32px;
+}
+.curr {
+  font-size: 24px;
+  position: absolute;
+  top: 2rem;
+  right: 0;
+}
+
+/* credit */
+.credit {
+  color: var(--text-0);
+  font-size: smaller;
+  display: flex;
+  justify-content: center;
+  padding-block: 2rem;
+}

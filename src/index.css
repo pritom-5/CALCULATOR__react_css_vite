@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --bg-white: rgb(230, 230, 230);
+  --bg-purple: rgb(102, 81, 197);
+  --bg-black: rgb(44, 44, 44);
+  --box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  --border-accent: rgb(61, 197, 231);
+}
+.dark {
+  --bg-background: rgb(61, 42, 146);
+  --bg-background-1: rgb(102, 81, 197);
+  --text-0: rgb(230, 230, 230);
+  --text-1: rgb(230, 230, 230);
+  --bg-accent: rgb(163, 51, 173);
+  --bg-accent-0: rgb(102, 81, 197);
+}
+.light {
+  --bg-background: rgb(204, 204, 204);
+  --bg-background-1: rgb(233, 233, 233);
+  --text-0: rgb(44, 44, 44);
+  --text-1: rgb(230, 230, 230);
+  --bg-accent: rgb(204, 143, 30);
+  --bg-accent-0: rgb(41, 172, 154);
+}
