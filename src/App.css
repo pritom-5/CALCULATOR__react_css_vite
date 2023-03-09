@@ -64,6 +64,8 @@
 }
 .button:hover {
   opacity: 0.8;
+  background-color: var(--bg-accent);
+  color: var(--bg-white);
 }
 .reset {
   grid-column: 1/3;
@@ -95,7 +97,8 @@
 }
 .prev {
   opacity: 0.7;
-  font-size: 32px;
+  /* prev font size */
+  font-size: 24px;
 }
 .curr {
   font-size: 24px;

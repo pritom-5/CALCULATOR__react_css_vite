@@ -14,6 +14,16 @@ The simple calculator app is a web-based tool that allows users to perform basic
 
 ---
 
+## App Preview:
+
+<br/>
+
+![calculator-video](./public/peek01.gif)
+
+<br/>
+
+---
+
 ## Preview images:
 
 <br/>
